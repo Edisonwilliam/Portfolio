@@ -788,3 +788,28 @@ section{
   }
 }
 
+@media(max-width:480px){
+  html{
+    font-size: 50%;
+  }
+
+  .education h2{
+    font-size: 4rem;
+  }
+
+  .home-content h3{
+    font-size: 2rem;
+  }
+
+  .home-content h1{
+    font-size: 3.5rem;
+  }
+
+  .home-content p{
+    font-size: 1.4rem;
+  }
+
+  .info-box{
+    width: 350px;
+  }
+}
