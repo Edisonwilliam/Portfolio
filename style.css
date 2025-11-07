@@ -113,6 +113,17 @@ header{
   text-shadow: 0 0 15px #ff014f;
 }
 
+.btn a{
+   color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#Resume a{
+  color: #fff;
+  text-decoration: none;
+}
+
 .home-content{
   display: flex;
   flex-direction: column;
