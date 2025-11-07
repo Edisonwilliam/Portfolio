@@ -92,7 +92,6 @@ header{
 .header button:hover{
   background: #e60045;
   transform: scale(1.1);
-  border-radius: 50%;
 }
 
 .home{
@@ -824,3 +823,113 @@ section{
     width: 350px;
   }
 }
+
+@media(max-width:320px){
+   .info-box{
+    width: 320px;
+   }
+
+}
+
+@media(max-width:1024px){
+     .contact-info{
+    flex-direction: column;
+    margin-left: 2.2rem;
+   }
+
+   .contact-cont{
+    margin-left: 0;
+   }
+
+    #menu-icon{
+    display: block;
+  }
+  .navbar{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 50%;
+    padding: 1rem 3%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px);
+    border-bottom-left-radius: 2rem;
+    border-left: 2px solid #e60045;
+    border-bottom: 3px solid #e60045;
+    display: none;
+  }
+
+  .navbar .active{
+    display: block;
+  }
+
+  .navbar a{
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+    color: #fff;
+  }
+  
+}
+
+@media(max-width:344px){
+     .info-box{
+    width: 315px;
+   }
+}
+
+@media(max-width:320px){
+   .info-box{
+    width: 320px;
+    margin-right: 10px;
+   }
+  }
+
+ 
+@media(max-width:360px){
+   .info-box{
+    width: 320px;
+    margin-right: 30px;
+   }
+  } 
+
+  
+@media(max-width:412px){
+   .info-box{
+    width: 320px;
+    margin-right: 10px;
+   }
+  }
+
+  @media(max-width:1120px){
+
+    #menu-icon{
+    display: block;
+  }
+  .navbar{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 50%;
+    padding: 1rem 3%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px);
+    border-bottom-left-radius: 2rem;
+    border-left: 2px solid #e60045;
+    border-bottom: 3px solid #e60045;
+    display: none;
+  }
+
+  .navbar .active{
+    display: block;
+  }
+
+  .navbar a{
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+    color: #fff;
+  }
+  
+ 
+
+  }
