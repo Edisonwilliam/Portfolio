@@ -87,3 +87,50 @@ document.addEventListener('click', (e) => {
     navbar.classList.remove('active');
   }
 });
+
+
+// Add this to your index.js file (after the existing code)
+
+// Initialize EmailJS
+(function() {
+    emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+})();
+
+// Handle form submission
+document.addEventListener('DOMContentLoaded', () => {
+    const contactForm = document.querySelector('.contacts form');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const formData = {
+                name: this.querySelector('input[type="text"]').value,
+                email: this.querySelector('input[type="email"]').value,
+                message: this.querySelector('textarea').value
+            };
+            
+            // Show loading state
+            const submitBtn = this.querySelector('.btn');
+            const originalText = submitBtn.value;
+            submitBtn.value = 'Sending...';
+            submitBtn.disabled = true;
+            
+            // Send email using EmailJS
+            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    alert('Message sent successfully! I will get back to you soon.');
+                    contactForm.reset();
+                    submitBtn.value = originalText;
+                    submitBtn.disabled = false;
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    alert('Failed to send message. Please try again or email me directly.');
+                    submitBtn.value = originalText;
+                    submitBtn.disabled = false;
+                });
+        });
+    }
+});
