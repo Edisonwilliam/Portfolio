@@ -45,6 +45,7 @@ header{
   transition: 0.3s ease;
 }
 
+
 .logo:hover{
   transform: scale(1.1);
   color: #ff014f;
@@ -809,7 +810,7 @@ section{
     }
 
     .service-info p{
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
 
 
@@ -844,7 +845,7 @@ section{
     }
 
     .service-info p{
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
 
 
@@ -908,7 +909,7 @@ section{
     }
 
     .service-info p{
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
 
   }
@@ -925,7 +926,7 @@ section{
     }
 
     .service-info p{
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
 
   } 
@@ -942,7 +943,7 @@ section{
     }
 
     .service-info p{
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
 
   }
@@ -954,7 +955,7 @@ section{
     }
 
     .service-info p{
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
 
     #menu-icon{
