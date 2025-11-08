@@ -43,6 +43,13 @@ header{
   color: #fff;
   cursor: pointer;
   transition: 0.3s ease;
+  line-height: 1.85;
+}
+
+.menu-btn{
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 
@@ -398,6 +405,7 @@ section{
   border: 5px solid transparent;
   cursor: pointer;
   transition: 0.4s ease-in-out;
+  color: #fff;
 
 }
 
@@ -810,7 +818,7 @@ section{
     }
 
     .service-info p{
-      font-size: 1.3rem;
+      font-size: 1.25rem;
     }
 
 
@@ -845,7 +853,7 @@ section{
     }
 
     .service-info p{
-      font-size: 1.3rem;
+      font-size: 1.25rem;
     }
 
 
@@ -909,7 +917,7 @@ section{
     }
 
     .service-info p{
-      font-size: 1.3rem;
+      font-size: 1.25rem;
     }
 
   }
@@ -926,7 +934,7 @@ section{
     }
 
     .service-info p{
-      font-size: 1.3rem;
+      font-size: 1.25rem;
     }
 
   } 
@@ -943,7 +951,7 @@ section{
     }
 
     .service-info p{
-      font-size: 1.3rem;
+      font-size: 1.25rem;
     }
 
   }
