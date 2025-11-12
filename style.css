@@ -58,9 +58,7 @@ header{
   color: #ff014f;
 }
 
-.logo span{
-  text-shadow: 0 0 25px #ff014f;
-}
+
 
 .navbar a{
   font-size: 1.7rem;
@@ -117,7 +115,6 @@ header{
   text-align: center;
   display: flex;
   justify-content: center;
-  text-shadow: 0 0 15px #ff014f;
 }
 
 .btn a{
@@ -189,7 +186,6 @@ section{
 
 .about span{
   color: #e60045;
-  text-shadow: 0 0 15px #ff014f;
   font-weight: bold;
   font-size: 2rem;
 }
@@ -205,16 +201,12 @@ section{
   top: 3rem;
   width: 32vw;
   border-radius: 50%;
-  box-shadow: 0 0 25px #e60045;
   cursor: pointer;
   transition: 0.4s ease-in-out;
 }
 
 .home-img img:hover{
-  box-shadow: 0 0 25px #e60045,
-              0 0 50px #e60045,
-              0 0 100px #e60045;
-
+  transform: scale(1.05);
 }
 
 .about-content p{
@@ -314,7 +306,6 @@ section{
   height: 21px;
   width: 21px;
   background-color: #e60045;
-  box-shadow: 0 0 25px #e60045;
   position: absolute;
   left: calc(50% - 8px);
   border-radius: 50%;
@@ -334,18 +325,11 @@ section{
   border: 3px solid #e60045;
   padding: 30px 50px;
   border-radius: 4rem;
-  box-shadow: 0 0 25px #e60045;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 
-.timeline-content:hover{
-  box-shadow: 0 0 25px #e60045,
-              0 0 50px #e60045,
-              0 0 100px #e60045;
 
-              transform: scale(1.05);
-}
 
 .timeline-content h3{
   font-size: 20px;
@@ -478,16 +462,11 @@ section{
   padding: 5rem 2rem;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: 0 0 25px #e60045;
   transition: 0.3s ease-in-out;
 }
 
 
 .project-card:hover{
-  box-shadow: 0 0 25px #e60045,
-              0 0 50px #e60045,
-              0 0 100px #e60045;
-
               transform: scale(1.05);
 }
 
@@ -520,11 +499,12 @@ section{
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s ease;
+  font-weight: bold;
 }
 
 .btn:hover{
   background: #ff014f;
-  transform: scale(1.1);
+ 
 }
 
 
@@ -585,9 +565,6 @@ section{
   flex-wrap: wrap;
 }
 
-.heading span{
-    text-shadow: 0 0 25px #ff014f;
-}
 
 
 .info-box img{
@@ -600,7 +577,6 @@ section{
   border: 3px solid #e60045;
   padding: 30px 50px;
   border-radius: 4rem;
-  box-shadow: 0 0 25px #e60045;
   cursor: pointer;
   transition: 0.3s ease-in-out;
   width: 400px;
